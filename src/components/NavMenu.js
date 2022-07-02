@@ -108,7 +108,6 @@ const NavMenu = () => {
           className='closeNavIcon'
           onClick={() => SetShowNav(!showNav)}
           role='button'
-          onKeyDown={() => SetShowNav(!showNav)}
           tabIndex={0}
         >
           <MdClose />
@@ -118,7 +117,6 @@ const NavMenu = () => {
             to='/'
             onClick={() => SetShowNav(!showNav)}
             role='button'
-            onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
             Home
@@ -129,7 +127,6 @@ const NavMenu = () => {
             to='/about'
             onClick={() => SetShowNav(!showNav)}
             role='button'
-            onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
             About
@@ -140,21 +137,9 @@ const NavMenu = () => {
             to='/projects'
             onClick={() => SetShowNav(!showNav)}
             role='button'
-            onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
             Projects
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to='/contact'
-            onClick={() => SetShowNav(!showNav)}
-            role='button'
-            onKeyDown={() => SetShowNav(!showNav)}
-            tabIndex={0}
-          >
-            Contact
           </NavLink>
         </li>
       </ul>
