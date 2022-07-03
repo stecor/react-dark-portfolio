@@ -98,7 +98,6 @@ const NavMenu = () => {
         className='mobile-menu-icon'
         onClick={() => SetShowNav(!showNav)}
         role='button'
-        onKeyDown={() => SetShowNav(!showNav)}
         tabIndex={0}
       >
         <MdMenu />
